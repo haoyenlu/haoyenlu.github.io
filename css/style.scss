@@ -250,7 +250,7 @@ button.btn, input.btn {
 .content-wrap {
   display: block;
   align-items: normal;
-  margin-bottom: 8em;
+  margin-bottom: 6em;
   margin-left: 3em;
   @include bp-xsmall {
     margin-bottom: 2em;
@@ -260,10 +260,10 @@ button.btn, input.btn {
   }
   img.img-responsive {
     margin-top: 1em;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: auto;
+    margin-right: auto;
     width: auto;
-    max-height: 400px;
+    max-height: 350px;
     @include bp-xsmall {
       display: none;
     }
@@ -470,6 +470,15 @@ pre {
 	8.0 Profile wrapper
 --------------------------------------------------------------*/
 .profile-wrapper {
-  display: flex;
+  display: block;
   margin-bottom: 1em;
+}
+
+.profile-wrapper img {
+  border-radius: 300px;
+  box-shadow: 0px 6px 6px gray;
+  max-height: 450px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
