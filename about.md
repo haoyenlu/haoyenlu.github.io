@@ -37,3 +37,10 @@ youtubeId2: hBt0IDLpE3I
 2021 <br/>
   -  A website showing every cryptocurrency’s value by fetching CoinGecko’s API.
   -  Implemented with AWS cloud server for backend and data storage, and React.js for frontend
+
+---
+
+### Club
+
+- **NTU Graduate Student Association** , Member (2020-2021)
+- **NTU Pop Dance Club** , Intructor (2018-2021)
