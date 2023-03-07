@@ -141,8 +141,8 @@ button.btn, input.btn {
     margin: 2em 0 4em 0;
   }
   .hero-buttons {
-    margin: 0 auto;
-    display: table;
+    margin: auto auto;
+    display: flex;
     i {
       padding-right: 0.5em;
     }
