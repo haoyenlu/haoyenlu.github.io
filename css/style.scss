@@ -248,7 +248,10 @@ button.btn, input.btn {
 }
 
 .content-wrap {
+  display: flex;
+  align-items: center;
   margin-bottom: 8em;
+  margin-left: 5em;
   @include bp-xsmall {
     margin-bottom: 2em;
   }
@@ -257,7 +260,8 @@ button.btn, input.btn {
   }
   img.img-responsive {
     margin-top: 2em;
-    margin-left: 6em;
+    margin-left: 3em;
+    margin-right: 3em;
     width: auto;
     max-height: 400px;
     @include bp-xsmall {
