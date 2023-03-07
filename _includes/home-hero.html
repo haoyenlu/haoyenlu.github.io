@@ -8,6 +8,11 @@
 
         <div class="hero-content">
 
+          {% if site.profile_image != '' %}
+          <img class="img-responsive" src="{{ site.profile_image }}" title="profile picture" width="100px" height="100px">
+          {% endif %}
+
+
           {% if site.title != '' %}
           <h1 class="text-center">{{site.title}}</h1>
           {% endif %}
