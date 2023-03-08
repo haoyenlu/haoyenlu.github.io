@@ -17,7 +17,7 @@ title: "Hi! I am Hao En Lu."
 email: 'haoenlu.07@gmail.com'
 description: "I'm currently a MS student who is interesting in Machine Learning and Software development.\nAlso enthusiastic about Phsycology and Neuroscience."
 baseurl: "" # the subpath of your site, e.g. /blog
-profile_image: "img/others/profile_picture.png"
+profile_image: "img/others/profile-picture.png"
 url: "https://haoyenlu.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'haoenlu_07'
 github_username: 'haoyenlu'
