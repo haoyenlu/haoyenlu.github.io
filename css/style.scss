@@ -141,8 +141,11 @@ button.btn, input.btn {
     margin: 2em 0 4em 0;
   }
   .hero-buttons {
-    margin: auto auto;
-    display: flex;
+    display: block;
+    text-align: center;
+    button {
+      padding: 15px 20px 15px 20px;
+    }
     i {
       padding-right: 0.5em;
     }
@@ -470,12 +473,12 @@ pre {
 	8.0 Profile wrapper
 --------------------------------------------------------------*/
 .profile-wrapper {
-  display: block;
+  display: grid;
   margin-bottom: 1em;
 }
 
 .profile-wrapper img {
-  border-radius: 300px;
+  border-radius: 250px;
   box-shadow: 0px 6px 6px gray;
   max-height: 450px;
   width: auto;
