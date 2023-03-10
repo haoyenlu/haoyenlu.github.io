@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hi! I am Hao En Lu."
 email: 'haoenlu.07@gmail.com'
-description: "I'm currently a MS student who is interesting in Machine Learning and Software development.\nAlso enthusiastic about Phsycology and Neuroscience."
+description: "I'm currently a MS student who is interesting in Machine Learning and Software development.Also enthusiastic about Phsycology and Neuroscience."
 baseurl: "" # the subpath of your site, e.g. /blog
 profile_image: "img/others/profile-picture.png"
 url: "https://haoyenlu.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
@@ -23,6 +23,7 @@ twitter_username: 'haoenlu_07'
 github_username: 'haoyenlu'
 linkedin_username: 'haoenlu'
 instagram_username: 'powsu06760'
+
 
 # Build settings
 markdown: kramdown
@@ -95,6 +96,7 @@ footer_text: '© 2023 Hao En Lu'
 admin_name: 'Hao En Lu'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
+section_title: 'Blog Posts'
 
 #### Phantom Navigation menu
 enable_nav: true
