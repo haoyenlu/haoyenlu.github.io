@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'AI LineBot'
 date: 2023-03-12 12:00:00
 categories: development
