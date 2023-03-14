@@ -283,15 +283,13 @@ button.btn, input.btn {
     h3.title {
       position: relative;
       margin-bottom: 1.5em;
-      &:after {
-        content: '';
-        position: absolute;
-        top: 1.5em;
-        left: 0;
-        width: 5em;
-        height: 3px;
-        background-color: #ECEFF1;
-      }
+    }
+    h3.title::after{
+      content: "";
+      display: block;
+      width: 6em;
+      padding-top: 3px;
+      border-bottom: 4px solid #ECEFF1;
     }
     .excerpt {
       width: 80%;
