@@ -254,7 +254,7 @@ button.btn, input.btn {
   display: block;
   align-items: normal;
   margin-bottom: 6em;
-  margin-left: 3em;
+  margin-left: 2em;
   @include bp-xsmall {
     margin-bottom: 2em;
   }
@@ -275,8 +275,10 @@ button.btn, input.btn {
     }
   }
   .content {
-    margin-top: 5em;
-    margin-left: 6em;
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right:auto;
+    margin-bottom: 2em;
     @include bp-xsmall {
       margin-left: 0;
     }
