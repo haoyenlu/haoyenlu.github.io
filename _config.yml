@@ -103,4 +103,5 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
+  - { url: '/academic', text: 'Academic'}
   - { url: '/others', text: 'Others' }

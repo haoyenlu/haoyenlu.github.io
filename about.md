@@ -2,8 +2,6 @@
 layout: inner
 title: About
 permalink: /about/
-youtubeId: IbFq1dWDoY0
-youtubeId2: hBt0IDLpE3I 
 ---
 
 # About me
