@@ -163,7 +163,9 @@ button.btn, input.btn {
 }
 
 .modal-content {
-  border-radius: 2px;
+  border-radius: 5px;
+  border: 2px solid;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .modal-body {

@@ -6,8 +6,6 @@ page_title: About Me
 ---
 
 
----
-
 ### Educational Background
 
 * **Information Management** Bachlor degree from **National Taiwan University** <br/>

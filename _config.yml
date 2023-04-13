@@ -105,3 +105,4 @@ nav_item:
   - { url: '/about', text: 'About' }
   - { url: '/academic', text: 'Academic'}
   - { url: '/others', text: 'Others' }
+  - { url: '/contact', text: 'Contact' }
