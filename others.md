@@ -2,11 +2,12 @@
 layout: inner
 title: Others
 permalink: /others/
+page_title: Others
 youtubeId: IbFq1dWDoY0
 youtubeId2: hBt0IDLpE3I 
 youtubeId3: Aqx6iEvtKvM
 ---
-
+---
 ## Dancing Video
 ---
 

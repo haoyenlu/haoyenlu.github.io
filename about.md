@@ -2,9 +2,9 @@
 layout: inner
 title: About
 permalink: /about/
+page_title: About Me
 ---
 
-# About me
 
 ---
 

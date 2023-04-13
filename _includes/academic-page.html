@@ -1,124 +1,141 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-/* Design */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+:root {
+  --font-family-primary: 'Vollkorn', serif;
+  --font-family-secondary: 'PT Sans', sans-serif;
+  
+  --font-size-title: 32px;
+  --line-height-title: 1.4;
+  --font-size-caption: 18px;
+  --line-height-caption: 1.2;
+  
+  --color-text: #222022;
+  --color-highlight-primary: #FFEF7E;
+  --color-highlight-secondary: #B7F9E9;
+  --border-radius-primary: 32px; 
 }
 
-
-.btn {
-  color: #ffffff;
-  padding: 0;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 400;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0;
-}
-
-.btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-
-.cards_item {
-  display: flex;
-  padding: 1rem;
-}
-
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
+@mixin mediaBig {
+  @media (min-width: 200px) {
+    @content;
   }
 }
 
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
+@include mediaBig {
+  :root {
+    --font-size-title: 40px;
+  }  
 }
 
-.card {
-  background-color: white;
-  border-radius: 1rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+.card_container {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
-.card:hover{
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.card {
+  max-width: 700px;
+  align-items: center;
+  height:auto;
+  border-radius: var(--border-radius-primary);
+  box-shadow: 24px 24px 80px rgba(0,0,0,0.1);
+  padding: 20px 20px 28px 20px;
+  box-sizing: border-box;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.905);
+  
+  @include mediaBig {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 32px;
+  }
+}
+
+.card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.card_content {
-  padding: 1em;
-  text-align: center;
+.card__image {
+  width: 500px;
+  height: auto;
+  border-radius: var(--border-radius-primary);
+  object-fit: cover;
+  margin-bottom: 18px;
+  
+  @include mediaBig {
+    width: 45%;
+    max-height: 500px;
+    margin-bottom: 0;
+  }
 }
 
-.card_title {
-  color:black;
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
+.card__content {
+  @include mediaBig {
+    width: 55%;
+    padding-left: 40px;
+  }
 }
 
-.card_text {
-  color: black;
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin-bottom: 0.5rem;    
+.card__date {
+  display: block;
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-caption);
+  line-height: var(--line-height-caption);
+  text-transform: uppercase;
+  color: var(--color-text);
+  margin-bottom: 6px;
+  
+  @include mediaBig {
+    margin-bottom: 8px;
+  }
 }
 
-.card_image {
-  max-width: 100%;
-  vertical-align: middle;
-  height: 150px;
-  width: auto;
+.card__title {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-title);
+  line-height: var(--line-height-title);
+  color: var(--color-text);
+  box-decoration-break: clone;
+  background-image: linear-gradient(90deg, var(--color-highlight-primary), var(--color-highlight-secondary));
+  background-size: 100% 42%;
+  background-repeat: no-repeat;
+  background-position: 0 85%;
+  padding: 0 4px;
+  margin-left: -4px;
 }
+
 
 </style>
 </head>
 
 
-<body>
-<ul class="cards">
-  <li class="cards_item">
-    <div class="card">
-      <div class="card_image"><img src="/img/others/Poster_INTO-George-Mason-University-logo.png"></div>
-      <div class="card_content">
-        <h1 class="card_title"> George Mason University</h1>
-        <p class="card_text"> Computer Science Pathway</p>
-        <a href="https://www.gmu.edu/academics/into-mason" class="btn card_btn"><button class="btn card_btn"> Visit Website</button> </a>
-
-      </div>
+<div class="card_container">
+  <div class="card">
+    <img src="/img/others/GMU_PLogo_4CP.png" class="card__image" alt="GMU" />
+    <div class="card__content">
+      <time datetime="2021-03-30" class="card__date">17/Jan/2023 ~ 17/May/2023</time>
+      <span class="card__title">Graduate Pathway Program in Computer and Information Sciences</span>
     </div>
-  </li>
-  <li class="cards_item">
-    <div class="card">
-      <div class="card_image"><img src="/img/others/national-taiwan-university.png"></div>
-      <div class="card_content">
-        <h1 class="card_title"> National Taiwan University </h1>
-        <p class="card_text"> Information Management </p>
-        <a href="https://management.ntu.edu.tw/en/IM"><button class="btn card_btn"> Visit Website</button></a>
-      </div>
+  </div>
+  <div class="card">
+    <img src="/img/others/national-taiwan-university.png" class="card__image" alt="NTU" />
+    <div class="card__content">
+      <time datetime="2021-03-30" class="card__date">Sept/2018 ~ Jun/2022</time>
+      <span class="card__title">Information Management in National Taiwan University</span>
     </div>
-  </li>
-</ul>
-</body>
+  </div>
+</div>
