@@ -7,14 +7,13 @@ page_title: About Me
 
 
 ### Educational Background
-
-* **Information Management** Bachlor degree from **National Taiwan University** <br/>
-* Graduate Pathway Program of MS in **Computer Science** at **George Mason University** <br/>
+* Graduate Pathway Program of MS in **Computer Science** at **George Mason University** (01/2023 ~ 05/2023) <br/>
+* **Information Management** Bachlor degree from **National Taiwan University** (09/2018 ~ 06/2022) <br/>
 
 ---
 
 ### Working Experience
-* **Resort Worker**, Zion National Park - Xanterra Travel Collection (June-Sep 2022) <br/>
+* **Resort Worker**, Zion National Park - Xanterra Travel Collection (06/2022 - 09/2022) <br/>
 * **Tutor**, Xue-Chen Cram School (2020-2021)<br/>
 * **Restaurant and Hostel Worker**, Groundnut Backpacker Hostel (2020)
 
