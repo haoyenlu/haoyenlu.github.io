@@ -27,6 +27,8 @@ instagram_username: 'powsu06760'
 
 # Build settings
 markdown: kramdown
+kramdown: 
+  input: GFM
 # theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate-v2
@@ -101,8 +103,18 @@ section_title: 'Blog Posts'
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
-  - { url: '/academic', text: 'Academic'}
-  - { url: '/others', text: 'Others' }
-  - { url: '/contact', text: 'Contact' }
+  - url: '/' 
+    text: 'Home'
+  - text: 'About'
+    subnav: 
+    - {url: '/about/introduction' , text: 'Introduction' }   
+    - {url: '/about/resume' , text: 'Resume' }   
+    - {url: '/about/academic-development', text: 'Academic Development' }
+    - {url: '/about/statement-of-purpose', text: 'Statement of Purpose' }
+    - {url: '/about/pathway-reflection' , text: 'Pathway Reflection' }
+  - url: '/academic'
+    text: 'Academic'
+  - url: '/others'
+    text: 'Others' 
+  - url: '/contact'
+    text: 'Contact' 

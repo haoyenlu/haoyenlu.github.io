@@ -46,8 +46,19 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               {% for item in site.nav_item %}
-                <li>
-                  <a href="{{ item.url }}">{{ item.text }}</a>
+                <li class="level1">
+                  {% if item.subnav %}
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" >{{ item.text }}<i class='fa fa-angle-down fa-lg' style="margin-left: 6px;"></i></a>
+                  <ul class="dropdown-menu">
+                    {% for subitem in item.subnav %}
+                    <li class="dropdown-item level2" style="margin:8px;">
+                      <a href="{{ subitem.url }}" style="font-size: 15px;" >{{ subitem.text }}</a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                  {% else %}
+                  <a href=" {{ item.url }}"> {{ item.text }} </a>
+                  {% endif %}
                 </li>
               {% endfor %}
             </ul>

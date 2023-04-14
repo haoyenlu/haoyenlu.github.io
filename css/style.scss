@@ -33,7 +33,7 @@ $secondary: #FF7B7B;
 }
 
 body {
-  background-color: #e9edf0cc;
+  background-color: #e9edf0;
   @extend %opensans;
   -webkit-font-smoothing: antialiased;
 }
@@ -108,6 +108,11 @@ button.btn, input.btn {
   }
 }
 
+.nav {
+  li.level1:hover {
+    background-color: #bdbcbcb8;
+  }
+}
 /*--------------------------------------------------------------
 	2.0 Home Hero
 --------------------------------------------------------------*/
