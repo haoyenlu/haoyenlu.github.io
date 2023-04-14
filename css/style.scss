@@ -501,7 +501,7 @@ pre {
 }
 
 .typing-demo {
-  width: 22ch;
+  width: 100%;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -512,7 +512,10 @@ pre {
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
+  }
+  to {
+    width: 100%;
   }
 }
     
