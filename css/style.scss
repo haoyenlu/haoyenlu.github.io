@@ -500,6 +500,10 @@ pre {
   place-items: center;
 }
 
+.wrapper h1 {
+  font-size:6vw;
+}
+
 .typing-demo {
   width: 100%;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
