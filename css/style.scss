@@ -495,38 +495,30 @@ pre {
 
 .wrapper {
   /*This part is important for centering*/
-  height: 100%;
-  display: flex;
+  display: grid;
   text-align: center;
   place-items: center;
-  justify-content: center;
-  align-items: center;
+
 }
 
-.wrapper h1 {
-  font-size:8vh;
-}
 
-.typing-demo {
-  width: 100%;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
+.typing {
   font-family: monospace;
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
+    linear-gradient(#00DFFC 0 0) 0 0;
+  background-size:calc(var(--n)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+    b .7s infinite steps(1),   
+    t calc(var(--n)*.1s) steps(var(--n)) forwards;
 }
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+@keyframes t{
+  from {background-size:0 200%}
 }
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
+@keyframes b{
+  50% {background-position:0 -100%,0 0}
 }
