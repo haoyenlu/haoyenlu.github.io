@@ -6,13 +6,14 @@ page_title: Introduction
 ---
 
 <style>
+
 .intro h1 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase; }
 
 
 .intro h2 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-weight: 700; line-height: 48px; margin: 0 0 24px; padding: 0 30px; text-align: center; text-transform: uppercase; }
 
 
-.intro p { color: #111; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 28px; margin: 0 0 48px; }
+.intro p { color: #111; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 28px; margin:0px 5px 25px 10px;}
 
 
 .intro a { color: #990000; text-decoration: none; }
@@ -49,9 +50,9 @@ page_title: Introduction
 .intro .my-photo {
     border-radius:10%; 
     max-width: 400px; 
-    margin:10px 10px 10px 10px;
+    margin-top:10px;
+    margin-bottom:10px;
     box-shadow: 6px 15px 15px rgba(0, 0, 0, .4);;
-    text-align:center;
 }
 
 </style>
@@ -61,7 +62,7 @@ page_title: Introduction
 
 <div class="author"><span> By Hao-En Lu </span></div>
 
-<img src="/img/others/intro_photo.jpg" class="my-photo" align=left><br><br>
+<img src="/img/others/intro_photo.jpg" class="my-photo" align=left ><br><br>
 
 
 <p>
