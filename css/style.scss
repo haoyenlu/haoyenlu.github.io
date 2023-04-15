@@ -26,7 +26,7 @@ $secondary: #FF7B7B;
 	1.0 Defaults
 --------------------------------------------------------------*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .container {
     width: 1200px;
   }
@@ -494,15 +494,17 @@ pre {
 }
 
 .wrapper {
-  height: 8vh;
   /*This part is important for centering*/
-  display: grid;
+  height: 100%;
+  display: flex;
+  text-align: center;
   place-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper h1 {
-  font-size:50px;
-  font-size:3vw;
+  font-size:8vh;
 }
 
 .typing-demo {
