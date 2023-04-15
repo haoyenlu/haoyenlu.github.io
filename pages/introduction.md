@@ -2,6 +2,7 @@
 layout: inner
 title: Introduction
 permalink: /about/introduction
+page_title: Introduction
 ---
 
 <style>
@@ -11,7 +12,7 @@ permalink: /about/introduction
 .intro h2 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 48px; font-weight: 700; line-height: 48px; margin: 0 0 24px; padding: 0 30px; text-align: center; text-transform: uppercase; }
 
 
-.intro p { color: #111; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 28px; margin: 0 0 48px; }
+.intro p { color: #111; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 28px; margin: 0 0 48px; }
 
 
 .intro a { color: #990000; text-decoration: none; }
@@ -49,13 +50,11 @@ permalink: /about/introduction
 
 
 <div class="intro">
-    <h1>Introduction</h1>
-    <div class="author"> <span> By Hao-En Lu </span> </div>
     <p>
     Hi, I am Hao-En Lu. I am currently a graduate student who is working on getting M.S. Degree in Computer Science. This portfolio is meant to give others who are interested in me an insight about my works and my life. Furthermore, I hope this portfolio is able to help my application in future career. This portfolio will show some personal projects I have worked on, and my academic course works. Some course work will also be provided in this portfolio to show my experience in certain area. Other interests like dancing or playing chess will also be indicated here to show my personal growth. In future, some photos or video of me traveling will also be presented in this portfolio for people to participate with my personal life.
     </p>
     
-    <div class="line"><button class="read-more">More</button></div>
+    <div class="author"> <span> By Hao-En Lu </span> </div>
 </div>
 
 

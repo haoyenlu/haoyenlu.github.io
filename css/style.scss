@@ -494,14 +494,15 @@ pre {
 }
 
 .wrapper {
-  height: 10vh;
+  height: 8vh;
   /*This part is important for centering*/
   display: grid;
   place-items: center;
 }
 
 .wrapper h1 {
-  font-size:6vw;
+  font-size:50px;
+  font-size:3vw;
 }
 
 .typing-demo {
