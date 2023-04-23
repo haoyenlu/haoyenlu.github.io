@@ -32,6 +32,8 @@
 
 .article .line { border-top: 1px solid #111; display: block; margin-top: 60px; padding-top: 50px; position: relative; }
 
+.article .dash-line { border-top: 1px dotted #111; display: block; margin-top: 60px; padding-top: 50px; position: relative; }
+
 
 .article .read-more { -moz-border-radius: 50%; -moz-transition: all 0.2s ease-in-out; -webkit-border-radius: 50%; -webkit-transition: all 0.2s ease-in-out; background: #111; border-radius: 50%; border: 10px solid #fdfdfd; color: #fff; display: block; font-family: 'Open Sans', sans-serif; font-size: 14px; height: 80px; line-height: 80px; margin: -40px 0 0 -40px; position: absolute; bottom: 0px; left: 50%; text-align: center; text-transform: uppercase; width: 80px; }
 
