@@ -42,7 +42,7 @@ height: 100%;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
 border-radius: 10px;
-background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 display: flex;
 align-items: center;
 justify-content: center;
