@@ -74,3 +74,13 @@
     background-repeat: no-repeat;
     padding: 0px 10px 0px 10px;
 }
+
+.article .partial-border {
+    padding: 10px 10px 10px 10px;
+    background:
+      linear-gradient(black, black) bottom left / 150px 2px,
+      linear-gradient(black, black) bottom left / 2px 100px,
+      linear-gradient(black, black) top right / 150px 2px,
+      linear-gradient(black, black) top right / 2px 100px;
+    background-repeat: no-repeat;
+}

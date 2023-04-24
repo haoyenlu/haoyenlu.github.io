@@ -25,9 +25,7 @@ page_title: Introduction
 <div class="article">
 
 <div class="art-deco">
-
 <div class="author" style="margin-top:10px"><span> By Hao-En Lu </span></div>
-
 <img src="/img/others/intro_photo.jpg" id="my-photo" align=right ><br><br>
 
 <p> 

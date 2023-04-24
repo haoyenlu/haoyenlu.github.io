@@ -1,0 +1,125 @@
+section {
+    text-align: center;
+    display:flex; 
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+@media (max-width: 800px) {
+    section {
+      flex-direction: column;
+    }
+}
+
+
+.figure {
+    display: inline-block;
+    margin: 10px;
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  
+  .figure * {
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  
+  
+  
+  /* Section 1 - Hover Effect #01 */
+  
+  .section-1 .figure:before,
+  .section-1 .figure:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: #1d1d1d;
+    border-left: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    content: '';
+    opacity: 0.9;
+    z-index: 1;
+  }
+  
+  .section-1 .figure:before {
+    -webkit-transform: skew(45deg) translateX(-180%);
+    transform: skew(45deg) translateX(-180%);
+  }
+  
+  .section-1 .figure:after {
+    -webkit-transform: skew(45deg) translate(180%);
+    transform: skew(45deg) translateX(180%);
+  }
+  
+  .section-1 .figure img {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: top;
+    border-radius: 20px;
+  }
+  
+  .section-1 .figure figcaption {
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      z-index: 2;
+      -webkit-transform: translate(-50%,-50%) scale(0.5);
+      transform: translate(-50%, -50%) scale(0.5);
+      opacity: 0;
+      -webkit-box-shadow: 0 0 10px #1d1d1d;
+      box-shadow: 0 0 10px #1d1d1d;
+  }
+  
+  .section-1 .figure h3 {
+    background-color: #1d1d1d;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 1em; 
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
+  
+  .section-1 .figure a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+  }
+  
+  .section-1 .figure:hover > img,
+  .section-1 .figure:hover > img {
+    opacity: 0.5;
+  }
+  
+  .section-1 .figure:hover:before,
+  .section-1 .figure.hover:before {
+    -webkit-transform: skew(45deg) translateX(-80%);
+    transform: skew(45deg) translateX(-80%);
+  }
+  
+  .section-1 .figure:hover:after,
+  .section-1 .figure.hover:after {
+    -webkit-transform: skew(45deg) translateX(80%);
+    transform: skew(45deg) translateX(80%);
+  }
+  
+  .section-1 figure:hover figcaption,
+  .section-1 figure.hover figcaption {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  
