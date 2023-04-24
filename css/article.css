@@ -19,7 +19,7 @@
 .article .date:before { border-top: 1px solid #111; content: ""; position: absolute; top: 12px; left: 0; width: 100%; z-index: -1; }
 
 
-.article .author { color: #111; display: block; font-family: 'Open Sans', sans-serif; font-size: 16px; padding-bottom: 38px; position: relative; text-align: center; z-index: 1; }
+.article .author { color: #111; display: block; font-family: 'Open Sans', sans-serif; font-size: 16px; padding-bottom: 20px; position: relative; text-align: center; z-index: 1; }
 
 
 .article .author:before { border-top: 1px solid #111; content: ""; position: absolute; top: 12px; left: 0; width: 100%; z-index: -1; }
@@ -60,4 +60,17 @@
         transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
         border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
     }
+}
+
+.article .art-deco {
+    border: 15px solid transparent; /* invisible space */
+    outline: 4px solid #cdcdcd;
+    outline-offset: -10px; /* first box */
+    background: linear-gradient(#cdcdcd 0 0) top,
+         linear-gradient(#cdcdcd 0 0) left, linear-gradient(#cdcdcd 0 0) bottom,
+         linear-gradient(#cdcdcd 0 0) right;
+    background-size: 200% 4px, 4px 200%; /* second box */
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    padding: 0px 10px 0px 10px;
 }
