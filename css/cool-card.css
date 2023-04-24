@@ -16,7 +16,7 @@ section {
 .figure {
     display: inline-block;
     margin: 10px;
-    width: 350px;
+    width: 70%;
     overflow: hidden;
     position: relative;
     text-align: center;
