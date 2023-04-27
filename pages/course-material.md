@@ -9,7 +9,7 @@ page_title: Course Material
 </head>
 <style>
 .blackboard {
-  min-width: 10em;
+  width:100%;
   box-sizing: border-box;
   background-image: 
     radial-gradient( circle at left 30%, 
