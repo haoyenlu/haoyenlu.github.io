@@ -112,6 +112,9 @@ button.btn, input.btn {
   li.level1:hover {
     background-color: #bdbcbcb8;
   }
+  li.level1:hover ul{
+    display: block;
+  }
 }
 /*--------------------------------------------------------------
 	2.0 Home Hero

@@ -25,9 +25,9 @@ page_title: Introduction
 <div class="article">
 
 <div class="art-deco">
-<div class="author" style="margin-top:10px"><span> By Hao-En Lu </span></div>
+<h1 style=" margin-top:0px;">About this</h1>
+<div class="author" style="margin-top:-20px"><span> By Hao-En Lu </span></div>
 <img src="/img/others/intro_photo.jpg" id="my-photo" align=right ><br><br>
-
 <p> 
     Hi, I am Hao-En Lu. I come from Taiwan. I am currently a graduate student who is working on getting M.S. Degree in Computer Science. This portfolio is meant to give others who are interested in me an insight into my work and my life. Furthermore, I hope this portfolio is able to help my application in my future career. This portfolio will show some personal projects I have worked on, and my academic course works. Some coursework will also be provided in this portfolio to show my experience in certain areas. Other interests like dancing or playing chess will also be indicated here to show my personal growth. In the future, some photos or videos of me traveling will also be presented in this portfolio for people to participate in my personal life.
 </p>

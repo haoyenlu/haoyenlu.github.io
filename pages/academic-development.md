@@ -4,41 +4,239 @@ title: Academic Development
 permalink: /about/academic-development/
 page_title: Academic Development
 ---
-<head>
-    <link rel="stylesheet" href="{{ "/css/article.css" | prepend: site.baseurl }}">
-</head>
 <style>
-.but-wrap{
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+*{
+  box-sizing: border-box;
+}
+
+
+.cards_container {
+  width:100%;
+  margin-top: -10px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+    width: 100%;
     display: flex;
     flex-direction:row;
-    justify-content:center;
-    align-items:center;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
 }
 
 @media (max-width: 800px) {
-  .but-wrap {
-    margin-top:20px;
+  .cards {
     flex-direction: column;
   }
 }
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('/img/others/plan-of-study-2.jpg');
+}
+
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('/img/others/course-material.jpg');
+}
+
+.card--3 .card__img, .card--3 .card__img--hover {
+    background-image: url('/img/others/academic-reference.jpg');
+}
+
+.card__like {
+    width: 18px;
+}
+
+.card__clock {
+  width: 15px;
+  vertical-align: middle;
+  fill: #AD7D52;
+}
+.card__time {
+    font-size: 12px;
+    color: #AD7D52;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.card__clock-info {
+    float: right;
+}
+
+.card__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+  
+}
+
+.card__info-hover {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  top: 0;  
+}
+.card {
+  margin-right: 25px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  min-width: 300px;
+  width: auto;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.card__info {
+  z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card__by {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
+}
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}  
 </style>
 
-<div class="article">
-  <div class="sketchy">
-    <h2> Plan of Study </h2>
-    <div class="date"><span style="font-weight:500"> 4/20/2023 </span></div>
-    <p class="wrap-content" style="text-align:justify;">
-    The reason I want to study in the U.S. is because of my parents. My parents influence me a lot since I was a little kid. Both of them studied electronic when they were in college and graduate school. After they graduated, they went to the U.S. to work in Bell Lab. I admire their experience and knowledge when I was young. Although they didn't work very long in the U.S., I know that I need to come to the U.S. to study or find a job. Going to the college, I chosed Information Management as my Major and didn't know a lot about what I would study in the college. Gradually throughout the semester, I was inclined to coding and endulged myself in the programming world. Although my interest in dancing still took many of my time in college, I witnessed the potential and massive influence of what computer can do. In my junior year, I had a graduate project about using computer to solve natural language puzzle. I studied how to translate human voice into English transcript, and I stepped into the world of Machine Learning, a.k.a Artificial Intelligence. Artificial Intelligence creates many posibilities for human. For example, the first time Computer defeated human in GO is an AI created by Google called AlphaGo, and from then on, many AI applications emerged and started to exceed human capability. The most famous example is Deep Blue, which defeated world chess champion in 1997, and no human can surpass computer. After witnessed the potential of Artificial Intelligence and attended courses in college, I wanted to know more and deeper about the future of AI. That is why I choose to study Computer Science in my master.
-    </p>
+
+<section class="cards cards_container">
+<article class="card card--1">
+  <div class="card__info-hover">
+    <svg class="card__like"  viewBox="0 0 24 24">
+    <path fill="#000000" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+</svg>
+      <div class="card__clock-info">
+        <svg class="card__clock"  viewBox="0 0 24 24"><path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+        </svg><span class="card__time">15 min</span>
+      </div>
+    
   </div>
-<div style="margin-top:40px;">
-  <h2>Course Materials</h2>
-  <div class="date"><span style="font-weight:500"> 4/23/2023 </span></div>
-  <div class="but-wrap">
-    <a href="/about/academic-development/EAP-508"><button class="btn btn-default btn-lg">EAP 508</button></a>
-    <a href="/about/academic-development/EAP-405"><button class="btn btn-default btn-lg">EAP 405</button></a>
-    <a href="/about/academic-development/INYO-504"><button class="btn btn-default btn-lg">INYO 504</button></a>
-    <a href="/about/academic-development/CS-530"><button class="btn btn-default btn-lg">CS 530</button></a>
-    <a href="/about/academic-development/CS-531"><button class="btn btn-default btn-lg">CS 531</button></a>
+  <div class="card__img"></div>
+  <a href="/about/academic-development/plan-of-study" class="card_link">
+     <div class="card__img--hover"></div>
+   </a>
+  <div class="card__info">
+    <span class="card__category">Academic</span>
+    <h3 class="card__title">Plan Of Study</h3>
+    <span class="card__by">by <a href="#" class="card__author" title="author">Hao-En Lu</a></span>
   </div>
-</div>
+</article>
+  
+  
+<article class="card card--2">
+  <div class="card__info-hover">
+    <svg class="card__like"  viewBox="0 0 24 24">
+    <path fill="#000000" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+</svg>
+      <div class="card__clock-info">
+        <svg class="card__clock"  viewBox="0 0 24 24"><path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+        </svg><span class="card__time">5 min</span>
+      </div>
+    
+  </div>
+  <div class="card__img"></div>
+  <a href="/about/academic-development/course-material" class="card_link">
+     <div class="card__img--hover"></div>
+   </a>
+  <div class="card__info">
+    <span class="card__category">Academic</span>
+    <h3 class="card__title">Course Material</h3>
+    <span class="card__by">by <a href="#" class="card__author" title="author">Hao-En Lu</a></span>
+  </div>
+</article>  
+
+<article class="card card--3">
+  <div class="card__info-hover">
+    <svg class="card__like"  viewBox="0 0 24 24">
+    <path fill="#000000" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+</svg>
+      <div class="card__clock-info">
+        <svg class="card__clock"  viewBox="0 0 24 24"><path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+        </svg><span class="card__time">15 min</span>
+      </div>
+    
+  </div>
+  <div class="card__img"></div>
+  <a href="/about/academic-development/academic-reference" class="card_link">
+     <div class="card__img--hover"></div>
+   </a>
+  <div class="card__info">
+    <span class="card__category">Academic</span>
+    <h3 class="card__title">Academic Rerence</h3>
+    <span class="card__by">by <a href="#" class="card__author" title="author">Hao-En Lu</a></span>
+  </div>
+</article>
+  
+  
+  
+</section>
