@@ -1,8 +1,10 @@
+.wrapper{
+    width:100%;
+}
 .wrapper ul,li{
     list-style:none;
 }
 .wrapper ul{
-    width:150%;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;

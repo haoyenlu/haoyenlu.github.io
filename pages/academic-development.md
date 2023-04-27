@@ -25,6 +25,7 @@ page_title: Academic Development
 }
 
 .cards {
+  margin-top:20px;
     width: 100%;
     display: flex;
     flex-direction:row;
@@ -103,7 +104,7 @@ border-top-right-radius: 12px;
   top: 0;  
 }
 .card {
-  margin-right: 25px;
+  margin: 0px 20px 20px 20px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
   background-color: #fff;
   min-width: 300px;
