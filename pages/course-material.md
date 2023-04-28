@@ -35,8 +35,8 @@ page_title: Course Material
   color: rgba(255,255,255,0.9);
 }
 </style>
-<div class="wrapper">
 <div class="blackboard">
+<div class="wrapper">
 <h2 id="title" style="text-align:center;">GMU INTO Courses</h2>
 <ul>
     <li>
