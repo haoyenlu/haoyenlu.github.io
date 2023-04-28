@@ -14,8 +14,8 @@
     color:#000;
     background:#ffc;
     display:block;
-    height:300px;
-    width:30rem;
+    height:20rem;
+    width:20rem;
     padding:1em;
     -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
     -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -25,7 +25,6 @@
     -webkit-transition:-webkit-transform .15s linear;
 }
 .wrapper ul li{
-    margin:1em;
     float:left;
     margin-bottom:20px;
 }
