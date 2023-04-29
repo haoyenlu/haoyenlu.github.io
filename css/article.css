@@ -72,7 +72,7 @@
     background-size: 200% 4px, 4px 200%; /* second box */
     background-origin: padding-box;
     background-repeat: no-repeat;
-    padding: 0px 10px 0px 10px;
+    padding: 2rem 2rem;
 }
 
 .article .partial-border {
