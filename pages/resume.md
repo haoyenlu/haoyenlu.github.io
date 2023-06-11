@@ -12,8 +12,9 @@ page_title: Resume
 }
 </style>
 
-{% include download-button.html text="Download to pdf" file="/img/others/resume_pdf.pdf" filename="haoenlu_resume" %}
+{% include download-button.html text="Download to pdf" file="/img/others/resume/resume_pdf.pdf" filename="haoenlu_resume" %}
 
-![Resume](/img/others/resume_draft_2.png) 
+![Resume](/img/others/resume/resume_1.png) 
+![Resume](/img/others/resume/resume_2.png) 
 {: #resume-img}
 
