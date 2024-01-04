@@ -23,6 +23,11 @@ page_title: Academic
       <figcaption> <h3>George Mason University</h3></figcaption>
       <a href="#"></a>
     </figure>
+    <figure class="figure">
+      <img src="/img/others/CWRU.jpg" />
+      <figcaption> <h3>Case Western Reserve University</h3></figcaption>
+      <a href="#"></a>
+    </figure>
 
   </div>
 
