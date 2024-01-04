@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'Choo-Choo-Zoo'
 date: 2024-01-03 12:00:00
 categories: development
