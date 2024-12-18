@@ -14,20 +14,21 @@ page_title: Academic
 <section class="section-1">
   <div class="row">
     <figure class="figure">
+      <img src="/img/others/CWRU.jpg" />
+      <figcaption> <h3>Case Western Reserve University</h3></figcaption>
+      <a href="https://case.edu/"></a>
+    </figure>
+    <figure class="figure">
       <img src="/img/others/NTU.jpg">
       <figcaption> <h3>National Taiwan University</h3></figcaption>
-      <a href="#"></a>
+      <a href="https://www.ntu.edu.tw/english/"></a>
     </figure>
     <figure class="figure">
       <img src="/img/others/GMU.jpg">
       <figcaption> <h3>George Mason University</h3></figcaption>
       <a href="#"></a>
     </figure>
-    <figure class="figure">
-      <img src="/img/others/CWRU.jpg" />
-      <figcaption> <h3>Case Western Reserve University</h3></figcaption>
-      <a href="#"></a>
-    </figure>
+
 
   </div>
 

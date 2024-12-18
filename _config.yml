@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hi! I am Hao En Lu."
 email: 'haoenlu.07@gmail.com'
-description: "I come from Taiwan and I'm currently a MS student studying Computer Science at Case Western Reserve University. I am interesting in Machine Learning, Software development, and Game Design. I am also enthusiastic about Phsycology and Neuroscience."
+description: "I come from Taiwan and I'm currently a recent graduate student with Master in Computer and Data Science from Case Western Reserve University. I am interesting in Machine Learning, Software development, and Game Design. I am also enthusiastic about Phsycology and Neuroscience."
 baseurl: "" # the subpath of your site, e.g. /blog
 profile_image: "img/others/profile-picture.png"
 url: "https://haoyenlu.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
